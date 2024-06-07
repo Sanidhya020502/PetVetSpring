@@ -37,7 +37,7 @@ public class Ad {
 	private String city;
 	
 	@Lob
-	@Column(columnDefinition = "longblob")
+	@Column
 	private byte[] img;
 	
 	
